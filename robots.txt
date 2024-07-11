@@ -1,0 +1,4 @@
+Sitemap: https://boxbot6.github.io/easy-weather-icons-font/sitemap.xml
+
+User-agent: *
+Disallow:
