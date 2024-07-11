@@ -1,0 +1,1152 @@
+@font-face {
+  font-family: 'easy_weather_icons_font';
+  src:  url('fonts/easy_weather_icons_font.eot?b8fud8');
+  src:  url('fonts/easy_weather_icons_font.eot?b8fud8#iefix') format('embedded-opentype'),
+    url('fonts/easy_weather_icons_font.ttf?b8fud8') format('truetype'),
+    url('fonts/easy_weather_icons_font.woff?b8fud8') format('woff'),
+    url('fonts/easy_weather_icons_font.svg?b8fud8#easy_weather_icons_font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'easy_weather_icons_font' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-UNKNOWN:before {
+  content: "\e900";
+}
+.icon-UNKNOWNday:before {
+  content: "\e901";
+}
+.icon-UNKNOWNnight:before {
+  content: "\e902";
+}
+.icon-TORNADO:before {
+  content: "\e903";
+}
+.icon-TORNADOday:before {
+  content: "\e904";
+}
+.icon-TORNADOnight:before {
+  content: "\e905";
+}
+.icon-TROPICAL_STORM:before {
+  content: "\e906";
+}
+.icon-TROPICAL_STORMday:before {
+  content: "\e907";
+}
+.icon-TROPICAL_STORMnight:before {
+  content: "\e908";
+}
+.icon-HURRICANE:before {
+  content: "\e909";
+}
+.icon-HURRICANEday:before {
+  content: "\e90a";
+}
+.icon-HURRICANEnight:before {
+  content: "\e90b";
+}
+.icon-SEVERE_THUNDERSTORMS:before {
+  content: "\e90c";
+}
+.icon-SEVERE_THUNDERSTORMSday:before {
+  content: "\e90d";
+}
+.icon-SEVERE_THUNDERSTORMSnight:before {
+  content: "\e90e";
+}
+.icon-THUNDERSTORMS:before {
+  content: "\e90f";
+}
+.icon-THUNDERSTORMSday:before {
+  content: "\e910";
+}
+.icon-THUNDERSTORMSnight:before {
+  content: "\e911";
+}
+.icon-TSTORM:before {
+  content: "\e912";
+}
+.icon-TSTORMday:before {
+  content: "\e913";
+}
+.icon-TSTORMnight:before {
+  content: "\e914";
+}
+.icon-MIXED_RAIN_SNOW:before {
+  content: "\e915";
+}
+.icon-MIXED_RAIN_SNOWday:before {
+  content: "\e916";
+}
+.icon-MIXED_RAIN_SNOWnight:before {
+  content: "\e917";
+}
+.icon-MIXED_RAIN_SLEET:before {
+  content: "\e918";
+}
+.icon-MIXED_RAIN_SLEETday:before {
+  content: "\e919";
+}
+.icon-MIXED_RAIN_SLEETnight:before {
+  content: "\e91a";
+}
+.icon-MIXED_SNOW_SLEET:before {
+  content: "\e91b";
+}
+.icon-MIXED_SNOW_SLEETday:before {
+  content: "\e91c";
+}
+.icon-MIXED_SNOW_SLEETnight:before {
+  content: "\e91d";
+}
+.icon-FREEZING_DRIZZLE:before {
+  content: "\e91e";
+}
+.icon-FREEZING_DRIZZLEday:before {
+  content: "\e91f";
+}
+.icon-FREEZING_DRIZZLEnight:before {
+  content: "\e920";
+}
+.icon-DRIZZLE:before {
+  content: "\e921";
+}
+.icon-DRIZZLEday:before {
+  content: "\e922";
+}
+.icon-DRIZZLEnight:before {
+  content: "\e923";
+}
+.icon-FREEZING_RAIN:before {
+  content: "\e924";
+}
+.icon-FREEZING_RAINday:before {
+  content: "\e925";
+}
+.icon-FREEZING_RAINnight:before {
+  content: "\e926";
+}
+.icon-SHOWERS:before {
+  content: "\e927";
+}
+.icon-SHOWERSday:before {
+  content: "\e928";
+}
+.icon-SHOWERSnight:before {
+  content: "\e929";
+}
+.icon-SHOWER:before {
+  content: "\e92a";
+}
+.icon-SHOWERday:before {
+  content: "\e92b";
+}
+.icon-SHOWERnight:before {
+  content: "\e92c";
+}
+.icon-RAIN:before {
+  content: "\e92d";
+}
+.icon-RAINday:before {
+  content: "\e92e";
+}
+.icon-RAINnight:before {
+  content: "\e92f";
+}
+.icon-HEAVY_SHOWERS:before {
+  content: "\e930";
+}
+.icon-HEAVY_SHOWERSday:before {
+  content: "\e931";
+}
+.icon-HEAVY_SHOWERSnight:before {
+  content: "\e932";
+}
+.icon-SNOW_FLURRIES:before {
+  content: "\e933";
+}
+.icon-SNOW_FLURRIESday:before {
+  content: "\e934";
+}
+.icon-SNOW_FLURRIESnight:before {
+  content: "\e935";
+}
+.icon-LIGHT_SNOW_SHOWERS:before {
+  content: "\e936";
+}
+.icon-LIGHT_SNOW_SHOWERSday:before {
+  content: "\e937";
+}
+.icon-LIGHT_SNOW_SHOWERSnight:before {
+  content: "\e938";
+}
+.icon-LSNOW:before {
+  content: "\e939";
+}
+.icon-LSNOWday:before {
+  content: "\e93a";
+}
+.icon-LSNOWnight:before {
+  content: "\e93b";
+}
+.icon-BLOWING_SNOW:before {
+  content: "\e93c";
+}
+.icon-BLOWING_SNOWday:before {
+  content: "\e93d";
+}
+.icon-BLOWING_SNOWnight:before {
+  content: "\e93e";
+}
+.icon-SNOW:before {
+  content: "\e93f";
+}
+.icon-SNOWday:before {
+  content: "\e940";
+}
+.icon-SNOWnight:before {
+  content: "\e941";
+}
+.icon-HAIL:before {
+  content: "\e942";
+}
+.icon-HAILday:before {
+  content: "\e943";
+}
+.icon-HAILnight:before {
+  content: "\e944";
+}
+.icon-SLEET:before {
+  content: "\e945";
+}
+.icon-SLEETday:before {
+  content: "\e946";
+}
+.icon-SLEETnight:before {
+  content: "\e947";
+}
+.icon-DUST:before {
+  content: "\e948";
+}
+.icon-DUSTday:before {
+  content: "\e949";
+}
+.icon-DUSTnight:before {
+  content: "\e94a";
+}
+.icon-FOGGY:before {
+  content: "\e94b";
+}
+.icon-FOGGYday:before {
+  content: "\e94c";
+}
+.icon-FOGGYnight:before {
+  content: "\e94d";
+}
+.icon-FOG:before {
+  content: "\e94e";
+}
+.icon-FOGday:before {
+  content: "\e94f";
+}
+.icon-FOGnight:before {
+  content: "\e950";
+}
+.icon-HAZE:before {
+  content: "\e951";
+}
+.icon-HAZEday:before {
+  content: "\e952";
+}
+.icon-HAZEnight:before {
+  content: "\e953";
+}
+.icon-SMOKY:before {
+  content: "\e954";
+}
+.icon-SMOKYday:before {
+  content: "\e955";
+}
+.icon-SMOKYnight:before {
+  content: "\e956";
+}
+.icon-BLUSTERY:before {
+  content: "\e957";
+}
+.icon-BLUSTERYday:before {
+  content: "\e958";
+}
+.icon-BLUSTERYnight:before {
+  content: "\e959";
+}
+.icon-WINDY:before {
+  content: "\e95a";
+}
+.icon-WINDYday:before {
+  content: "\e95b";
+}
+.icon-WINDYnight:before {
+  content: "\e95c";
+}
+.icon-CLOUDY:before {
+  content: "\e95d";
+}
+.icon-CLOUDYday:before {
+  content: "\e95e";
+}
+.icon-CLOUDYnight:before {
+  content: "\e95f";
+}
+.icon-MOSTLY_CLOUDY:before {
+  content: "\e960";
+}
+.icon-MOSTLY_CLOUDYday:before {
+  content: "\e961";
+}
+.icon-MOSTLY_CLOUDYnight:before {
+  content: "\e962";
+}
+.icon-MCLOUDY:before {
+  content: "\e963";
+}
+.icon-MCLOUDYday:before {
+  content: "\e964";
+}
+.icon-MCLOUDYnight:before {
+  content: "\e965";
+}
+.icon-PARTLY_CLOUDY:before {
+  content: "\e966";
+}
+.icon-PARTLY_CLOUDYday:before {
+  content: "\e967";
+}
+.icon-PARTLY_CLOUDYnight:before {
+  content: "\e968";
+}
+.icon-PCLOUDY:before {
+  content: "\e969";
+}
+.icon-PCLOUDYday:before {
+  content: "\e96a";
+}
+.icon-PCLOUDYnight:before {
+  content: "\e96b";
+}
+.icon-CLEAR:before {
+  content: "\e96c";
+}
+.icon-CLEARday:before {
+  content: "\e96d";
+}
+.icon-CLEARnight:before {
+  content: "\e96e";
+}
+.icon-FAIR:before {
+  content: "\e96f";
+}
+.icon-FAIRday:before {
+  content: "\e970";
+}
+.icon-FAIRnight:before {
+  content: "\e971";
+}
+.icon-MIXED_RAIN_AND_HAIL:before {
+  content: "\e972";
+}
+.icon-MIXED_RAIN_AND_HAILday:before {
+  content: "\e973";
+}
+.icon-MIXED_RAIN_AND_HAILnight:before {
+  content: "\e974";
+}
+.icon-ISOLATED_THUNDERSTORMS:before {
+  content: "\e975";
+}
+.icon-ISOLATED_THUNDERSTORMSday:before {
+  content: "\e976";
+}
+.icon-ISOLATED_THUNDERSTORMSnight:before {
+  content: "\e977";
+}
+.icon-SCATTERED_SHOWERS:before {
+  content: "\e978";
+}
+.icon-SCATTERED_SHOWERSday:before {
+  content: "\e979";
+}
+.icon-SCATTERED_SHOWERSnight:before {
+  content: "\e97a";
+}
+.icon-HEAVY_SNOW:before {
+  content: "\e97b";
+}
+.icon-HEAVY_SNOWday:before {
+  content: "\e97c";
+}
+.icon-HEAVY_SNOWnight:before {
+  content: "\e97d";
+}
+.icon-SCATTERED_SNOW_SHOWERS:before {
+  content: "\e97e";
+}
+.icon-SCATTERED_SNOW_SHOWERSday:before {
+  content: "\e97f";
+}
+.icon-SCATTERED_SNOW_SHOWERSnight:before {
+  content: "\e980";
+}
+.icon-THUNDERSHOWERS:before {
+  content: "\e981";
+}
+.icon-THUNDERSHOWERSday:before {
+  content: "\e982";
+}
+.icon-THUNDERSHOWERSnight:before {
+  content: "\e983";
+}
+.icon-TSHOWER:before {
+  content: "\e984";
+}
+.icon-TSHOWERday:before {
+  content: "\e985";
+}
+.icon-TSHOWERnight:before {
+  content: "\e986";
+}
+.icon-SNOW_SHOWERS:before {
+  content: "\e987";
+}
+.icon-SNOW_SHOWERSday:before {
+  content: "\e988";
+}
+.icon-SNOW_SHOWERSnight:before {
+  content: "\e989";
+}
+.icon-ISOLATED_THUNDERSHOWERS:before {
+  content: "\e98a";
+}
+.icon-ISOLATED_THUNDERSHOWERSday:before {
+  content: "\e98b";
+}
+.icon-ISOLATED_THUNDERSHOWERSnight:before {
+  content: "\e98c";
+}
+.icon-THERMOMETER:before {
+  content: "\e98d";
+}
+.icon-THERMOMETERday:before {
+  content: "\e98e";
+}
+.icon-THERMOMETERnight:before {
+  content: "\e98f";
+}
+.icon-CENTIGRADE:before {
+  content: "\e990";
+}
+.icon-CENTIGRADEday:before {
+  content: "\e991";
+}
+.icon-CENTIGRADEnight:before {
+  content: "\e992";
+}
+.icon-FAHRENHEIT:before {
+  content: "\e993";
+}
+.icon-FAHRENHEITday:before {
+  content: "\e994";
+}
+.icon-FAHRENHEITnight:before {
+  content: "\e995";
+}
+.icon-UV_LEVEL:before {
+  content: "\e996";
+}
+.icon-UV_LEVELday:before {
+  content: "\e997";
+}
+.icon-UV_LEVELnight:before {
+  content: "\e998";
+}
+.icon-SUNRISE:before {
+  content: "\e999";
+}
+.icon-SUNRISEday:before {
+  content: "\e99a";
+}
+.icon-SUNRISEnight:before {
+  content: "\e99b";
+}
+.icon-SUNRISE2:before {
+  content: "\e99c";
+}
+.icon-SUNRISE2day:before {
+  content: "\e99d";
+}
+.icon-SUNRISE2night:before {
+  content: "\e99e";
+}
+.icon-SUNSET:before {
+  content: "\e99f";
+}
+.icon-SUNSETday:before {
+  content: "\e9a0";
+}
+.icon-SUNSETnight:before {
+  content: "\e9a1";
+}
+.icon-ECLIPSE:before {
+  content: "\e9a2";
+}
+.icon-ECLIPSEday:before {
+  content: "\e9a3";
+}
+.icon-ECLIPSEnight:before {
+  content: "\e9a4";
+}
+.icon-SNOWFLAKE:before {
+  content: "\e9a5";
+}
+.icon-SNOWFLAKEday:before {
+  content: "\e9a6";
+}
+.icon-SNOWFLAKEnight:before {
+  content: "\e9a7";
+}
+.icon-UMBRELLA:before {
+  content: "\e9a8";
+}
+.icon-UMBRELLAday:before {
+  content: "\e9a9";
+}
+.icon-UMBRELLAnight:before {
+  content: "\e9aa";
+}
+.icon-RAINBOW:before {
+  content: "\e9ab";
+}
+.icon-RAINBOWday:before {
+  content: "\e9ac";
+}
+.icon-RAINBOWnight:before {
+  content: "\e9ad";
+}
+.icon-FOGCLOUD:before {
+  content: "\e9ae";
+}
+.icon-FOGCLOUDday:before {
+  content: "\e9af";
+}
+.icon-FOGCLOUDnight:before {
+  content: "\e9b0";
+}
+.icon-WINDY_DRIZZLE:before {
+  content: "\e9b1";
+}
+.icon-WINDY_DRIZZLEday:before {
+  content: "\e9b2";
+}
+.icon-WINDY_DRIZZLEnight:before {
+  content: "\e9b3";
+}
+.icon-WINDY_CLOUDY:before {
+  content: "\e9b4";
+}
+.icon-WINDY_CLOUDYday:before {
+  content: "\e9b5";
+}
+.icon-WINDY_CLOUDYnight:before {
+  content: "\e9b6";
+}
+.icon-NOT_AVAILABLE:before {
+  content: "\e9b7";
+}
+.icon-NOT_AVAILABLEday:before {
+  content: "\e9b8";
+}
+.icon-NOT_AVAILABLEnight:before {
+  content: "\e9b9";
+}
+.icon-SUN:before {
+  content: "\e9ba";
+}
+.icon-SUNday:before {
+  content: "\e9bb";
+}
+.icon-SUNnight:before {
+  content: "\e9bc";
+}
+.icon-SUN2:before {
+  content: "\e9bd";
+}
+.icon-SUN2day:before {
+  content: "\e9be";
+}
+.icon-SUN2night:before {
+  content: "\e9bf";
+}
+.icon-SUN3:before {
+  content: "\e9c0";
+}
+.icon-SUN3day:before {
+  content: "\e9c1";
+}
+.icon-SUN3night:before {
+  content: "\e9c2";
+}
+.icon-SUNSET2:before {
+  content: "\e9c3";
+}
+.icon-SUNSET2day:before {
+  content: "\e9c4";
+}
+.icon-SUNSET2night:before {
+  content: "\e9c5";
+}
+.icon-MOON:before {
+  content: "\e9c6";
+}
+.icon-MOONday:before {
+  content: "\e9c7";
+}
+.icon-MOONnight:before {
+  content: "\e9c8";
+}
+.icon-MOON2:before {
+  content: "\e9c9";
+}
+.icon-MOON2day:before {
+  content: "\e9ca";
+}
+.icon-MOON2night:before {
+  content: "\e9cb";
+}
+.icon-MOONSTARS:before {
+  content: "\e9cc";
+}
+.icon-MOONSTARSday:before {
+  content: "\e9cd";
+}
+.icon-MOONSTARSnight:before {
+  content: "\e9ce";
+}
+.icon-CLOUD:before {
+  content: "\e9cf";
+}
+.icon-CLOUDday:before {
+  content: "\e9d0";
+}
+.icon-CLOUDnight:before {
+  content: "\e9d1";
+}
+.icon-CLOUD2:before {
+  content: "\e9d2";
+}
+.icon-CLOUD2day:before {
+  content: "\e9d3";
+}
+.icon-CLOUD2night:before {
+  content: "\e9d4";
+}
+.icon-CLOUD3:before {
+  content: "\e9d5";
+}
+.icon-CLOUD3day:before {
+  content: "\e9d6";
+}
+.icon-CLOUD3night:before {
+  content: "\e9d7";
+}
+.icon-CLOUD4:before {
+  content: "\e9d8";
+}
+.icon-CLOUD4day:before {
+  content: "\e9d9";
+}
+.icon-CLOUD4night:before {
+  content: "\e9da";
+}
+.icon-CLOUD5:before {
+  content: "\e9db";
+}
+.icon-CLOUD5day:before {
+  content: "\e9dc";
+}
+.icon-CLOUD5night:before {
+  content: "\e9dd";
+}
+.icon-CLOUDY2:before {
+  content: "\e9de";
+}
+.icon-CLOUDY2day:before {
+  content: "\e9df";
+}
+.icon-CLOUDY2night:before {
+  content: "\e9e0";
+}
+.icon-CLOUDY3:before {
+  content: "\e9e1";
+}
+.icon-CLOUDY3day:before {
+  content: "\e9e2";
+}
+.icon-CLOUDY3night:before {
+  content: "\e9e3";
+}
+.icon-CLOUDY4:before {
+  content: "\e9e4";
+}
+.icon-CLOUDY4day:before {
+  content: "\e9e5";
+}
+.icon-CLOUDY4night:before {
+  content: "\e9e6";
+}
+.icon-SNOWY:before {
+  content: "\e9e7";
+}
+.icon-SNOWYday:before {
+  content: "\e9e8";
+}
+.icon-SNOWYnight:before {
+  content: "\e9e9";
+}
+.icon-SNOWY2:before {
+  content: "\e9ea";
+}
+.icon-SNOWY2day:before {
+  content: "\e9eb";
+}
+.icon-SNOWY2night:before {
+  content: "\e9ec";
+}
+.icon-SNOWY3:before {
+  content: "\e9ed";
+}
+.icon-SNOWY3day:before {
+  content: "\e9ee";
+}
+.icon-SNOWY3night:before {
+  content: "\e9ef";
+}
+.icon-SNOWY4:before {
+  content: "\e9f0";
+}
+.icon-SNOWY4day:before {
+  content: "\e9f1";
+}
+.icon-SNOWY4night:before {
+  content: "\e9f2";
+}
+.icon-SNOWY5:before {
+  content: "\e9f3";
+}
+.icon-SNOWY5day:before {
+  content: "\e9f4";
+}
+.icon-SNOWY5night:before {
+  content: "\e9f5";
+}
+.icon-SNOWSHOWER:before {
+  content: "\e9f6";
+}
+.icon-SNOWSHOWERday:before {
+  content: "\e9f7";
+}
+.icon-SNOWSHOWERnight:before {
+  content: "\e9f8";
+}
+.icon-SNOWSHOWER2:before {
+  content: "\e9f9";
+}
+.icon-SNOWSHOWER2day:before {
+  content: "\e9fa";
+}
+.icon-SNOWSHOWER2night:before {
+  content: "\e9fb";
+}
+.icon-SNOW263:before {
+  content: "\e9fc";
+}
+.icon-SNOW263day:before {
+  content: "\e9fd";
+}
+.icon-SNOW263night:before {
+  content: "\e9fe";
+}
+.icon-RAINY:before {
+  content: "\e9ff";
+}
+.icon-RAINYday:before {
+  content: "\ea00";
+}
+.icon-RAINYnight:before {
+  content: "\ea01";
+}
+.icon-RAINY2:before {
+  content: "\ea02";
+}
+.icon-RAINY2day:before {
+  content: "\ea03";
+}
+.icon-RAINY2night:before {
+  content: "\ea04";
+}
+.icon-RAINY3:before {
+  content: "\ea05";
+}
+.icon-RAINY3day:before {
+  content: "\ea06";
+}
+.icon-RAINY3night:before {
+  content: "\ea07";
+}
+.icon-RAINY4:before {
+  content: "\ea08";
+}
+.icon-RAINY4day:before {
+  content: "\ea09";
+}
+.icon-RAINY4night:before {
+  content: "\ea0a";
+}
+.icon-RAINDROP:before {
+  content: "\ea0b";
+}
+.icon-RAINDROPday:before {
+  content: "\ea0c";
+}
+.icon-RAINDROPnight:before {
+  content: "\ea0d";
+}
+.icon-LIGHTNING:before {
+  content: "\ea0e";
+}
+.icon-LIGHTNINGday:before {
+  content: "\ea0f";
+}
+.icon-LIGHTNINGnight:before {
+  content: "\ea10";
+}
+.icon-LIGHTNING2:before {
+  content: "\ea11";
+}
+.icon-LIGHTNING2day:before {
+  content: "\ea12";
+}
+.icon-LIGHTNING2night:before {
+  content: "\ea13";
+}
+.icon-LIGHTNING3:before {
+  content: "\ea14";
+}
+.icon-LIGHTNING3day:before {
+  content: "\ea15";
+}
+.icon-LIGHTNING3night:before {
+  content: "\ea16";
+}
+.icon-LIGHTNING4:before {
+  content: "\ea17";
+}
+.icon-LIGHTNING4day:before {
+  content: "\ea18";
+}
+.icon-LIGHTNING4night:before {
+  content: "\ea19";
+}
+.icon-LIGHTNING5:before {
+  content: "\ea1a";
+}
+.icon-LIGHTNING5day:before {
+  content: "\ea1b";
+}
+.icon-LIGHTNING5night:before {
+  content: "\ea1c";
+}
+.icon-LIGHTNING39:before {
+  content: "\ea1d";
+}
+.icon-LIGHTNING39day:before {
+  content: "\ea1e";
+}
+.icon-LIGHTNING39night:before {
+  content: "\ea1f";
+}
+.icon-THERMOMETER2:before {
+  content: "\ea20";
+}
+.icon-THERMOMETER2day:before {
+  content: "\ea21";
+}
+.icon-THERMOMETER2night:before {
+  content: "\ea22";
+}
+.icon-CELSIUS:before {
+  content: "\ea23";
+}
+.icon-CELSIUSday:before {
+  content: "\ea24";
+}
+.icon-CELSIUSnight:before {
+  content: "\ea25";
+}
+.icon-COMPASS:before {
+  content: "\ea26";
+}
+.icon-COMPASSday:before {
+  content: "\ea27";
+}
+.icon-COMPASSnight:before {
+  content: "\ea28";
+}
+.icon-SUNGLASSES:before {
+  content: "\ea29";
+}
+.icon-SUNGLASSESday:before {
+  content: "\ea2a";
+}
+.icon-SUNGLASSESnight:before {
+  content: "\ea2b";
+}
+.icon-UMBRELLA2:before {
+  content: "\ea2c";
+}
+.icon-UMBRELLA2day:before {
+  content: "\ea2d";
+}
+.icon-UMBRELLA2night:before {
+  content: "\ea2e";
+}
+.icon-WIND:before {
+  content: "\ea2f";
+}
+.icon-WINDday:before {
+  content: "\ea30";
+}
+.icon-WINDnight:before {
+  content: "\ea31";
+}
+.icon-WINDY2:before {
+  content: "\ea32";
+}
+.icon-WINDY2day:before {
+  content: "\ea33";
+}
+.icon-WINDY2night:before {
+  content: "\ea34";
+}
+.icon-WINDY3:before {
+  content: "\ea35";
+}
+.icon-WINDY3day:before {
+  content: "\ea36";
+}
+.icon-WINDY3night:before {
+  content: "\ea37";
+}
+.icon-WINDY4:before {
+  content: "\ea38";
+}
+.icon-WINDY4day:before {
+  content: "\ea39";
+}
+.icon-WINDY4night:before {
+  content: "\ea3a";
+}
+.icon-WINDY5:before {
+  content: "\ea3b";
+}
+.icon-WINDY5day:before {
+  content: "\ea3c";
+}
+.icon-WINDY5night:before {
+  content: "\ea3d";
+}
+.icon-NONE:before {
+  content: "\ea3e";
+}
+.icon-NONEday:before {
+  content: "\ea3f";
+}
+.icon-NONEnight:before {
+  content: "\ea40";
+}
+.icon-mist:before {
+  content: "\ea41";
+}
+.icon-mistday:before {
+  content: "\ea42";
+}
+.icon-mistnight:before {
+  content: "\ea43";
+}
+.icon-smoke:before {
+  content: "\ea44";
+}
+.icon-smokeday:before {
+  content: "\ea45";
+}
+.icon-smokenight:before {
+  content: "\ea46";
+}
+.icon-haze2:before {
+  content: "\ea47";
+}
+.icon-haze2day:before {
+  content: "\ea48";
+}
+.icon-haze2night:before {
+  content: "\ea49";
+}
+.icon-sand_dust_whirls:before {
+  content: "\ea4a";
+}
+.icon-sand_dust_whirlsday:before {
+  content: "\ea4b";
+}
+.icon-sand_dust_whirlsnight:before {
+  content: "\ea4c";
+}
+.icon-fog2:before {
+  content: "\ea4d";
+}
+.icon-fog2day:before {
+  content: "\ea4e";
+}
+.icon-fog2night:before {
+  content: "\ea4f";
+}
+.icon-sand:before {
+  content: "\ea50";
+}
+.icon-sandday:before {
+  content: "\ea51";
+}
+.icon-sandnight:before {
+  content: "\ea52";
+}
+.icon-dust2:before {
+  content: "\ea53";
+}
+.icon-dust2day:before {
+  content: "\ea54";
+}
+.icon-dust2night:before {
+  content: "\ea55";
+}
+.icon-ash:before {
+  content: "\ea56";
+}
+.icon-ashday:before {
+  content: "\ea57";
+}
+.icon-ashnight:before {
+  content: "\ea58";
+}
+.icon-squall:before {
+  content: "\ea59";
+}
+.icon-squallday:before {
+  content: "\ea5a";
+}
+.icon-squallnight:before {
+  content: "\ea5b";
+}
+.icon-tornado2:before {
+  content: "\ea5c";
+}
+.icon-tornado2day:before {
+  content: "\ea5d";
+}
+.icon-tornado2night:before {
+  content: "\ea5e";
+}
+.icon-thunderstorm_with_light_rain:before {
+  content: "\ea5f";
+}
+.icon-thunderstorm_with_light_rainday:before {
+  content: "\ea60";
+}
+.icon-thunderstorm_with_light_rainnight:before {
+  content: "\ea61";
+}
+.icon-thunderstorm_with_rain:before {
+  content: "\ea62";
+}
+.icon-thunderstorm_with_rainday:before {
+  content: "\ea63";
+}
+.icon-thunderstorm_with_rainnight:before {
+  content: "\ea64";
+}
+.icon-thunderstorm_with_heavy_rain:before {
+  content: "\ea65";
+}
+.icon-thunderstorm_with_heavy_rainday:before {
+  content: "\ea66";
+}
+.icon-thunderstorm_with_heavy_rainnight:before {
+  content: "\ea67";
+}
+.icon-ragged_thunderstorm:before {
+  content: "\ea68";
+}
+.icon-ragged_thunderstormday:before {
+  content: "\ea69";
+}
+.icon-ragged_thunderstormnight:before {
+  content: "\ea6a";
+}
+.icon-thunderstorm_with_drizzle:before {
+  content: "\ea6b";
+}
+.icon-thunderstorm_with_drizzleday:before {
+  content: "\ea6c";
+}
+.icon-thunderstorm_with_drizzlenight:before {
+  content: "\ea6d";
+}
+.icon-drizzle_rain:before {
+  content: "\ea6e";
+}
+.icon-drizzle_rainday:before {
+  content: "\ea6f";
+}
+.icon-drizzle_rainnight:before {
+  content: "\ea70";
+}
+.icon-EMPTY1:before {
+  content: "\ea71";
+}
+.icon-EMPTY1day:before {
+  content: "\ea72";
+}
+.icon-EMPTY1night:before {
+  content: "\ea73";
+}
+.icon-EMPTY2:before {
+  content: "\ea74";
+}
+.icon-EMPTY2day:before {
+  content: "\ea75";
+}
+.icon-EMPTY2night:before {
+  content: "\ea76";
+}
