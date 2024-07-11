@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/displayWeatherIconText"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/easy_weather_icons_font"
+        android:gravity="center"
+        android:hint="Icon"
+        android:textSize="80sp"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/displayDescriptionText"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_below="@+id/displayWeatherIconText"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:hint="Description"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/displayTemperatureText"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_below="@+id/displayDescriptionText"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:hint="Temp"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/linearLayoutForTextInput"
+        android:layout_below="@+id/displayTemperatureText">
+
+        <TextView
+            android:id="@+id/textPrefixDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="City: "
+            android:textColor="#191919"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/inputEditTextForCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:autofillHints="Intent"
+            android:ems="8"
+            android:textSize="22sp"
+            android:hint="Enter a city..."
+            android:inputType="text"
+            android:imeOptions="actionSearch"
+            android:focusable="true"
+            android:textColor="#000000"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck"
+            tools:targetApi="o" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayoutForTextInput"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:minHeight="60dp"
+        android:text="REFRESH BUTTON\n(only updates approx every 10 mins)"
+        tools:ignore="HardcodedText,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/displayUpdatedAtText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:hint="Updated at"
+        android:textSize="18sp"
+        tools:ignore="TextContrastCheck" />
+
+</RelativeLayout>
