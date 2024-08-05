@@ -93,9 +93,7 @@ largest range of weather conditions.)
 
 <br>
 
-<a name="API-Demo"></a>
-
-### API Demo.apk
+### API Demo.apk {#API-Demo}
 
 (A simple demo app that uses 'easy_weather_icons_font' with the OpenWeatherMap API is included in the download for you to try and experiment with (for those interested in the coding it was constructed as shown in the example-code shown here beneath it). Otherwise you can just install the app and try it out.  
 
