@@ -103,17 +103,17 @@ largest range of weather conditions.)
 
 <br>
 
-The below code is now updated to Kotlin.
+The code has been updated to Kotlin.
 
 ### //example-code//
 
-- In Android Studio create a new project named 'API Demo' using the template for Empty Views Activity.
+- Use **Android Studio** to create a new project named 'API Demo' using the template for Empty Views Activity.
 
-- Right click the **app**/res folder and create a new font folder there and then copy easy_weather_icons_font.ttf to it.
+- Right click the **app**/res folder and create a New > Folder > Font Folder there and then copy easy_weather_icons_font.ttf to it.
 
-(note: creating this font folder can sometimes be troublesome - if so you can try adding and hovering over any missing fontFamilyresource reference from inside a layout, e.g. `android:fontFamily="@font/any_font_name_here"` and then select 'create font resource file' from the popup menu to force the creation the new font folder containing a new .xml resource inside it - you can then delete the temporary .xml resource file and add your own fonts to the font folder.
+(note: creating this font folder can sometimes be troublesome depending on what version of Android Stuio you are using - if this happens you can try opening **app**/res/layout/activity_main.xml and in a TextView adding `android:fontFamily="@font/any_font_name_here" and then hovering over the missing fon resource and then select 'create font resource file' from the popup menu to force the creation the new font folder containing a new .xml resource inside it - you can then delete the temporary any_font_name_here.xml resource file and add your own fonts to the font folder.
 
-(also note: Font names in this folder can only consist of lowercase letters a-z, numbers 0-9, or underscores so if using other fonts you may have to rename them accordingly).
+(also note: Font names in this folder can only consist of lowercase letters a-z, numbers 0-9, or underscores so if using any fonts that dont comply with this you will just have to rename them first).
 
 - Copy code below to AndroidManifest.xml.
 
