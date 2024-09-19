@@ -111,9 +111,9 @@ The code has been updated to Kotlin.
 
 - Right click the **app**/res folder and create a New > Folder > Font Folder there and then copy easy_weather_icons_font.ttf to it.
 
-(note: creating this font folder can sometimes be troublesome depending on what version of Android Stuio you are using - if this happens you can try opening **app**/res/layout/activity_main.xml and in a TextView adding `android:fontFamily="@font/any_font_name_here" and then hovering over the missing fon resource and then select 'create font resource file' from the popup menu to force the creation the new font folder containing a new .xml resource inside it - you can then delete the temporary any_font_name_here.xml resource file and add your own fonts to the font folder.
+(note: creating this font folder can sometimes be troublesome depending on what version of Android Stuio you are using - if this happens you can try opening **app**/res/layout/activity_main.xml and in any TextView adding `android:fontFamily="@font/any_font_name_here" and then hovering over the missing font resource and then select 'create font resource file' from the popup menu to force the automatic creation the new font folder to contain the new .xml resource inside it - you can then delete the temporary 'any_font_name_here.xml' resource file and add your own fonts to the font folder.
 
-(also note: Font names in this folder can only consist of lowercase letters a-z, numbers 0-9, or underscores so if using any fonts that dont comply with this you will just have to rename them first).
+(also note: Font names in this folder can only consist of lowercase letters a-z, numbers 0-9, or underscores, so if using any fonts that dont comply with this format you can just rename them to match it).
 
 - Copy code below to AndroidManifest.xml.
 
